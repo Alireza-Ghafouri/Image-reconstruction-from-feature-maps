@@ -1,0 +1,9 @@
+matplotlib==3.10.1
+numpy==2.2.4
+omegaconf==2.3.0
+Pillow==11.1.0
+Requests==2.32.3
+torch==2.6.0+cu118
+torchvision==0.21.0+cu118
+tqdm==4.66.5
+tqdm==4.67.1

@@ -1,0 +1,27 @@
+seed: 17
+
+optimizer:
+  lr: 0.001
+  weight_decay: 0.0001
+
+lr_scheduler:
+  step_size: 5
+  gamma: 0.1
+
+training:
+  num_epochs: 20
+  device: 'cuda'
+  batch_size: 32
+  num_classes: 20
+  eval_num_samples: 50
+  visual_num_samples: 5
+
+paths:
+  weights_root: ./weights
+  plots_root: ./plots
+
+  data:
+    dataset_dir: ./Dataset/unzipped
+    zip_path: ./Dataset/tiny-imagenet-200.zip
+    download_url: http://cs231n.stanford.edu/tiny-imagenet-200.zip
+    wnids_path: ./Dataset/unzipped/tiny-imagenet-200/wnids.txt
